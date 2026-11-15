@@ -168,7 +168,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Columbia, Howard County",
             "priority": 10,
-            "description": "'",
+            "description": "<p>After first getting active in politics while at the University of Maryland, Kenneth Ulman would go on to work for both Bill Clinton’s 1992 Presidential Campaign and Parris Glendening’s 1998 Gubernatorial Campaign, with a brief stint as a White House intern between this time. After Glendening took office, Ulman was rewarded with a position in his administration.</p><p>In 2002, Ulman was elected to the Howard County Council, serving four years until being elected as County Executive, allowing himself to build a name within the Maryland Democratic Party. During his time as County Executive, he promoted redevelopment, education and environmental sustainability.</p>",
             "color_hex": "#0000ff",
             "secondary_color_hex": "#FFFFC0",
             "is_active": 0,
