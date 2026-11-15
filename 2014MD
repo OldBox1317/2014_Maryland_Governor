@@ -676,6 +676,7 @@ function addDynamicCSS() {
             background: #964B00;
             color: #FFFFFF;
             border: 2px solid #DAA520;
+            border-radius: 8px;
             font-family: "Arial", sans-serif;
             font-weight: 600;
             font-size: 14px;
@@ -706,6 +707,7 @@ function addDynamicCSS() {
             background: #964B00;
             color: #FFFFFF;
             border: 2px solid #DAA520;
+            border-radius: 8px;
             font-family: "Arial", sans-serif;
             font-weight: 600;
             font-size: 14px;
@@ -716,6 +718,7 @@ function addDynamicCSS() {
             background: #964B00;
             color: #FFFFFF;
             border: 2px solid #DAA520;
+            border-radius: 8px;
             font-family: "Arial", sans-serif;
             font-weight: 600;
             font-size: 14px;
