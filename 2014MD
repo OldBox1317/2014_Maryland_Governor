@@ -29,7 +29,7 @@ campaignTrail_temp.election_json = [
         "pk": 13,
         "fields": {
             "year": 1844,
-            "summary": "<p>With Governor Martin O'Malley term limited and likely to run for President, his Lieutenant Governor Anthony Brown is facing off against Larry Hogan. A seemingly non-competitive race for a strongly blue state is looking competitive this year as midterms have always proven to be a weakness for incumbent Presidents.</p><p>Will Hogan be able to make a historic and unexpected win, or will Anthony Brown keep the legacy of a future Presidential candidate intact?</p>",
+            "summary": "<p>The 2014 Maryland Gubernatorial Election is upon us and with incumbent Governor Martin O’Malley term limited and plotting a run for the presidency, Republicans see an opening for an upset whilst the Democrats seek to solidify O’Malley’s legacy.</p><p>Lieutenant Governor Anthony Brown is seeking to keep Democrats in power as Republicans smell blood in the water. He will have to use his experience to win over voters while also making the decision to either tie himself to the O’Malley Administration or paint himself in a different light.</p><p>Businessman Larry Hogan is the Republican candidate who helped build his own momentum from his Change Maryland organisation and is widely seen as a moderate who is willing to work across the aisle to enact his vision.</p>",
             "image_url": "https://file.garden/aQrk4ZgQJCx_hnkl/mdfix/electionimage",
             "winning_electoral_vote_number": 138,
             "advisor_url": "https://file.garden/aQrk4ZgQJCx_hnkl/mdfix/mdgop",
@@ -168,7 +168,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Democrat",
             "state": "Columbia, Howard County",
             "priority": 10,
-            "description": "<p>After first getting active in politics while at the University of Maryland, Kenneth Ulman would go on to work for both Bill Clinton’s 1992 Presidential Campaign and Parris Glendening’s 1998 Gubernatorial Campaign, with a brief stint as a White House intern between this time. After Glendening took office, Ulman was rewarded with a position in his administration.</p><p>In 2002, Ulman was elected to the Howard County Council, serving four years until being elected as County Executive, allowing himself to build a name within the Maryland Democratic Party. During his time as County Executive, he promoted redevelopment, education and environmental sustainability.</p>",
+            "description": "'",
             "color_hex": "#0000ff",
             "secondary_color_hex": "#FFFFC0",
             "is_active": 0,
@@ -176,7 +176,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "'",
             "electoral_loss_message": "'",
             "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
+            "description_as_running_mate": "<p>After first getting active in politics while at the University of Maryland, Kenneth Ulman would go on to work for both Bill Clinton’s 1992 Presidential Campaign and Parris Glendening’s 1998 Gubernatorial Campaign, with a brief stint as a White House intern between this time. After Glendening took office, Ulman was rewarded with a position in his administration.</p><p>In 2002, Ulman was elected to the Howard County Council, serving four years until being elected as County Executive, allowing himself to build a name within the Maryland Democratic Party. During his time as County Executive, he promoted redevelopment, education and environmental sustainability.</p>",
             "candidate_score": 0,
             "running_mate": true
         }
