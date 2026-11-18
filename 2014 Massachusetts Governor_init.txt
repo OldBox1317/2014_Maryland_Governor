@@ -22,6 +22,16 @@ HistHexcolour=["#ff0000","#0000ff","#000435","#4A1985"];
         HistPV=["1,044,573","1,004,408","71,814","37,531"];
         HistPVP=["48.4%","46.5%","3.3%","1.9%"];
 
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#e6a300",
+    "header_text_color": "#FFFFFF",
+    "description_text_color": "#FFFFFF",
+    "description_background_color": "#4f5878",
+    "main_color": "#1f2c5c",
+    "secondary_color": "#e6a300",
+    "ui_text_color": "#000000"
+}
+
 campaignTrail_temp.temp_election_list = [
     {
         "id": 20,
