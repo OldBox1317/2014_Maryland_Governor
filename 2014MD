@@ -509,6 +509,29 @@ var soundtracks = {
 
    ]
    },
+  1: {
+    name: "Best of 2014",
+    tracklist: [
+      {
+        "name": "Happy - Pharrell Williams",
+        "url": "https://audio.jukehost.co.uk/mHYlocuK8OFMKaCsBA9LCrrzAMeYBOWI"
+      },
+      {
+        "name": "Dark Horse - Katy Perry (ft. Juicy J)",
+        "url": "https://audio.jukehost.co.uk/BGmaCTkh3nMrAPCZEcfGhU71AyW3AEhc"
+      },
+      {
+        "name": "All of Me - John Legend",
+        "url": "https://audio.jukehost.co.uk/ixqKRBnkF8IMfS0vlXBU4y2lUPOOkVcB"
+      },
+      {
+        "name": "Fancy - Iggy Azalea (ft. Charli XCX)",
+        "url": "https://audio.jukehost.co.uk/Ti1owyBzKfrrTlC15kh4HgsgxAlSDYJp"
+      },
+      
+
+   ]
+   }
    	  
 }
 
