@@ -16,6 +16,12 @@ campaignTrail_temp.election_json = [
     }
 ]
 
+HistHexcolour=["#ff0000","#0000ff","#000435","#4A1985"];
+        HistName=["Charlie Baker","Martha Coakley","Evan Falchuk","Others"];
+        HistEV=[7,7,0,0];
+        HistPV=["1,044,573","1,004,408","71,814","37,531"];
+        HistPVP=["48.4%","46.5%","3.3%","1.9%"];
+
 campaignTrail_temp.temp_election_list = [
     {
         "id": 20,
