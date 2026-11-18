@@ -656,7 +656,7 @@ function addDynamicCSS() {
         }
 
         #final_results_description {
-            font-size: 16px;
+            font-size: 13px;
         }
 
         #menu_container {
