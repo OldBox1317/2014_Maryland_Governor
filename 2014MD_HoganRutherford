@@ -4905,12 +4905,11 @@ endingPicker = (out, totv, aa, quickstats) => {
     e.final_overall_results.sort((a, b) => b.popular_votes - a.popular_votes);
 
     if (aa[0].candidate === 132) {
-        setImage("https://file.garden/aQrk4ZgQJCx_hnkl/mdfix/0C1WNWg.jpg");
+        setImage("https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/4YCCTNDEWUI6JH642Q5QKPWLJU&w=1800&h=1800");
         ctsAchievement("Maryland Changed");
         return `
-            <h3>Congratulations! You Won The Gubernatorial Election!</h3><br>
-            Many pundits and amateurs alike were quick to call this one of the biggest upsets in Maryland's history and the biggest upset of the 2014 midterms. Nobody thought that this would happen. People are already starting to speculate about you launching a presidential run in 2016, or in 2020. But for now, the work begins to fix Maryland. You will be remembered for more than just a businessman.
-        `;
+            <h3>Congratulations, you have won the Gubernatorial Election!</h3><br>
+            After a long count throughout the night, the major networks have finally declared you the winner of the election—something that nobody thought was possible until tonight. Just minutes after the call is made you receive a call from Lieutenant Governor Brown who delivers a very standard concession, like ones you had made when you ran for congress. Republicans are already dreaming about what this means for the future: perhaps Maryland could progress to a swing state, or maybe you could even run for President someday. But make sure you don’t get carried away because you have an elected responsibility:<br>A responsibility to change Maryland for the better.  `;
     }
 
     if (aa[0].candidate === 131) {
