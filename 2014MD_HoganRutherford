@@ -4915,7 +4915,7 @@ endingPicker = (out, totv, aa, quickstats) => {
     if (aa[0].candidate === 131) {
         setImage("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Anthony_G._Brown_Official_State_Photo.jpg/250px-Anthony_G._Brown_Official_State_Photo.jpg");
         return `
-            <h3Sorry, you have lost the Gubernatorial Election.</h3><br>
+            <h3>Sorry, you have lost the Gubernatorial Election.</h3><br>
             <p>Despite hopes that in these midterms Republicans could break into the Governor’s Mansion, Anthony Brown has prevailed—securing the legacy of Governor O’Malley. This loss will sting no doubt, especially with other Republican gubernatorial candidates in states like Illinois and Massachusetts being able to defeat Democratic challengers.</p><p>After a concession call to the Lieutenant Governor you go out to address supporters: many you know from the days of Change Maryland, the three year movement which led you to be the Republican nominee. The disappointment in their faces makes the speech tough to get through, but you do anyway and take a sigh of relief once you finish./<p><p>You sit to ponder your future, you could always run again in 2018 should Hillary inevitably become President, or maybe Boyd Rutherford could win. While this race is over, you still gave the Democrats a run for their money, causing the likes of Obama and Clinton to skip Iowa and North Carolina to campaign in what should be a blue state. You should be proud of that.</p>
         `;
     }
