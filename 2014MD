@@ -890,7 +890,7 @@ tooltipList = [
     //Governors
     {searchString: "Governor Ehrlich", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Robert_ehrlich_speaking_at_healthierUS_summit_cropped.jpg/250px-Robert_ehrlich_speaking_at_healthierUS_summit_cropped.jpg>Bob Ehrlich. Governor of Maryland from 2003-2007. Last Republican to win statewide."},
     {searchString: "Governor O'Malley", explanationText: "<img src=https://api.time.com/wp-content/uploads/2014/11/martin-omalley.jpg>Martin O'Malley. Outgoing Governor of Maryland."},
-    {searchString: "O'Malley/Brown Administration", explanationText: "<img src=https://swampland.time.com/wp-content/uploads/sites/14/2013/05/death-penalty-marylan_yang.jpg?w=720&h=480&crop=1>Incumbent Administration led by Governor Martin O'Malley and Lt. Governor Brown."},
+    {searchString: "O'Malley/Brown Administration", explanationText: "<img src=https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr06/2013/4/9/10/enhanced-buzz-23915-1365519560-19.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto>Incumbent Administration led by Governor Martin O'Malley and Lt. Governor Brown."},
     {searchString: "Governor Kasich", explanationText: "<img src=https://lindinitiative.ubc.ca/wordpress/wp-content/uploads/2019/02/John-Kasich_Headshot10.jpg>Incumbent Governor of Ohio. Likely GOP Primary candidate in 2016."},
     {searchString: "Mitt Romney", explanationText: "<img src=https://static01.nyt.com/images/2014/06/15/us/ROMNEY/ROMNEY-superJumbo.jpg>2012 Republican Presidential Nominee."},
     {searchString: "Jeb Bush", explanationText: "<img src=https://upload.wikimedia.org/wikipedia/commons/5/5f/Jeb_Bush_by_Gage_Skidmore_2.jpg>Former Governor of Florida."},
