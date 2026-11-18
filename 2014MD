@@ -518,7 +518,66 @@ newMusicPlayer()
 
 
 //#startcode
+const gameThemes = {
+    "Maryland Traditional" : function() {
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#eaaa00";
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#9D2235";
+        document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+        $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+        $(".container")[0].style.backgroundColor = "#000000";
+        document.getElementById("header").src = "https://file.garden/aQrk4ZgQJCx_hnkl/mdfix/banner";
+        document.body.background = "https://cdn.britannica.com/30/116630-050-1A399B0D/National-Aquarium-Baltimore-Maryland.jpg";
+        styling = document.createElement("style");
+        document.head.appendChild(styling);          
+        styling.innerHTML = `
+        body {
+            background-size: cover;
+        }
+        .inner_window_w_desc {
+            background-color:#9d2235!important;
+        }
+        `
+    localStorage.setItem("ravensactive", "false");
+    },
+    "Go Ravens!" : function() {
+        document.getElementById("header").src = "https://file.garden/aQrk4ZgQJCx_hnkl/mdfix/ravens/banner";
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#663399"
+        nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#663399"
+        document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+        $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+        $(".container")[0].style.backgroundColor = "#663399"
+        document.body.background = "https://file.garden/aQrk4ZgQJCx_hnkl/mdfix/ravens/background"
+        styling = document.createElement("style");
+        document.head.appendChild(styling);          
+        styling.innerHTML = `
+        body {
+            background-size: cover;
+        }
+        .inner_window_w_desc {
+            background-color:#663399!important;
+        }
+        `
+    localStorage.setItem("ravensactive", "true");
+    }
+}
 
+// Replace old theme picker
+const themePicker = document.getElementById("themePicker");
+const newThemePicker = document.createElement("select");
+newThemePicker.id = "themePicker";
+newThemePicker.addEventListener("change", gameThemePicked);
+let newInnerHTML = "";
+for(theme in gameThemes) {
+    newInnerHTML += `<option value="${theme}">${theme}</option>`;
+}
+newThemePicker.innerHTML = newInnerHTML;
+themePicker.replaceWith(newThemePicker);
+
+function gameThemePicked() {
+    gameThemes[newThemePicker.value]();
+}
+
+gameThemePicked();
 
 corrr = '\n              <h2>The Maryland Campaign Trail</h2>\n            ';
 
@@ -537,7 +596,7 @@ document.getElementById("header").src = "https://file.garden/aQrk4ZgQJCx_hnkl/md
 
 document.body.background = "https://cdn.britannica.com/30/116630-050-1A399B0D/National-Aquarium-Baltimore-Maryland.jpg";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#9d2235!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} </style>";
 
 //#endcode
 
