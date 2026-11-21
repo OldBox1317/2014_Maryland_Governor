@@ -194,7 +194,7 @@ campaignTrail_temp.questions_json = [
         "pk": 641,
         "fields": {
             "priority": 5,
-            "description": "Throughout the election, Democrats have held a fundraising advantage. Advisors feel as if you should try get more funds for your campaign.",
+            "description": "Throughout the election, the Democrats and Anthony Brown have managed to hold quite a substantial fundraising advantage. What will you do to begin closing the gap?",
             "likelihood": 1
         }
     },
@@ -593,7 +593,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4205,
         "fields": {
             "question": 641,
-            "description": "Sure, let's get some big names in the GOP to come hold a fundraising dinner with us."
+            "description": "I think there is some time in my schedule to hold a couple fundraising dinners—let's get some big names to join me while we're at it."
         }
     },
     {
@@ -601,7 +601,7 @@ campaignTrail_temp.answers_json = [
         "pk": 4206,
         "fields": {
             "question": 641,
-            "description": "Is this really a good idea? We can continue our underdog image and show we can win by being fiscally responsible."
+            "description": "There always seems to be this stigma around not taking public financing but I think this would be our best course of action."
         }
     },
     {
@@ -4851,7 +4851,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 4206,
             "candidate": 132,
-            "answer_feedback": "It's unclear if turning down funds to make a political statement is a good idea."
+            "answer_feedback": "While this certainly provides a cash boost, your plan of fiscal responsibility with state funds does raise some eyebrows."
         }
     },
     {
